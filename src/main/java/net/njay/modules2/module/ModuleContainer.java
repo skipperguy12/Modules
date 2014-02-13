@@ -1,7 +1,5 @@
 package net.njay.modules2.module;
 
-import com.google.common.collect.Maps;
-
 import net.njay.modules2.exception.InvalidModuleException;
 
 import org.jdom2.Document;
@@ -10,7 +8,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ModuleContainer {
-    private HashMap<Module, ModuleInfo> modules = Maps.newHashMap();
+    private HashMap<Module, ModuleInfo> modules = new HashMap<Module, ModuleInfo>();
 
 
     public ModuleContainer(Document doc) {
