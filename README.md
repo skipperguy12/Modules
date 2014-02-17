@@ -1,4 +1,4 @@
-Modules
+Modules 
 =======
 
 Slight changes between module system built by @gcflames5 and @skipperguy12
@@ -11,3 +11,7 @@ In a normal listener (not affected by the registering or unregistering of module
 In the MaxBuildHeightModuleListener, if the build height is greater than defined in XML, another message appears.
 
 A system like this can be used in minigames and game managers to easily create games with the ability to expand in the future.
+
+![ScreenShot](http://i.creativecommons.org/l/by-nc/4.0/88x31.png)
+Creative Commons License
+Java Module System by Neil Johari is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
